@@ -1,5 +1,6 @@
 export default {
-  docsRepositoryBase: "https://github.com/eli32-vlc/fmhyguidesindex",
+  docsRepositoryBase:
+    "https://github.com/eli32-vlc/fmhyguidesindex/tree/main/pages",
   logo: (
     <span>
       <strong>FMHY Guides Index</strong>
@@ -18,14 +19,14 @@ export default {
       />
       <meta
         property="og:image"
-        content="https://small.fileditchstuff.me/s19/RhpZOOTDhHGqXWhxJZpO.png"
+        content="https://small.fileditchstuff.me/s19/YsciPpCiHZrbQvbTrLl.png"
       />
       <meta property="og:image:alt" content="FMHY Guides Index Social Card" />
       <meta property="og:url" content="https://guides.fmhy.lol" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:image"
-        content="https://small.fileditchstuff.me/s19/RhpZOOTDhHGqXWhxJZpO.png"
+        content="https://small.fileditchstuff.me/s19/YsciPpCiHZrbQvbTrLl.png"
       />
       <meta
         name="twitter:description"
