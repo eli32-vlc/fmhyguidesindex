@@ -1,0 +1,81 @@
+
+
+![FMHY](https://small.fileditchstuff.me/s19/BBkKaVhOUSqSgwozCjPA.png)
+
+**Your Guide to Troubleshooting Problems in FMHY.**
+
+---
+
+import { Callout } from 'nextra/components'
+
+<Callout emoji="❗">
+  **If you're new to pirating, take a look at the [FMHY Beginners Guide](https://fmhy.lol/beginners-guide) which explains most of the issues first, and the rest are listed below.**
+</Callout>
+
+---
+
+![Links Banner](https://small.fileditchstuff.me/s19/hMYHJvERPIdeuNSBMEL.png)
+
+export const config = {
+  layout: 'centered',
+};
+
+<div
+  style={{
+    display: 'flex',
+    gap: '56px', // Spaced out even more
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+    marginTop: '40px', // Space at the top
+  }}
+>
+  {[
+    { text: 'Join our Discord', link: 'https://discord.com/example' },
+    { text: 'Check the Wiki', link: 'https://fmhy.lol' },
+    { text: 'Check the Source Code', link: 'https://github.com/fmhy/FMHYEdit' },
+  ].map((item) => (
+    <div
+      key={item.text}
+      style={{
+        borderRadius: '9px', // Sharp corners
+        boxShadow: '0 2px 8px rgba(0, 0, 0, 0.2)', // Subtle shadow for depth
+        background: '#a883ed', // Blue background
+        color: '#FFFFFF', // White text
+        textAlign: 'center',
+        padding: '20px',
+        width: '240px',
+        height: '100px', // Proportional size
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        transition: 'transform 0.2s, box-shadow 0.2s, background 0.2s',
+      }}
+      onMouseOver={(e) => {
+        e.currentTarget.style.transform = 'scale(1.05)';
+        e.currentTarget.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.3)';
+        e.currentTarget.style.background = '#443f8f'; // Lighter blue on hover
+      }}
+      onMouseOut={(e) => {
+        e.currentTarget.style.transform = 'scale(1)';
+        e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.2)';
+        e.currentTarget.style.background = '#a883ed'; // Revert to original blue
+      }}
+    >
+      <a
+        href={item.link}
+        style={{
+          textDecoration: 'none',
+          color: '#E0F2FE', // Lighter blue for accent
+          fontSize: '16px',
+          fontWeight: 'bold',
+        }}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {item.text}
+      </a>
+    </div>
+  ))}
+</div>
