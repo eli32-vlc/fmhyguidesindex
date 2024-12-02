@@ -1,6 +1,6 @@
 export default {
   docsRepositoryBase:
-    "https://github.com/eli32-vlc/fmhyguidesindex/tree/main/pages",
+    "https://github.com/eli32-vlc/fmhyguidesindex/tree/main",
   logo: (
     <span>
       <strong>FMHY Guides Index</strong>
