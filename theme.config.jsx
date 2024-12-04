@@ -11,6 +11,10 @@ export default {
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+        name="description"
+        content="Your Guide to Troubleshooting Problems in FMHY."
+      />
       <meta property="og:title" content="FMHY Guides Index" />
       <meta
         property="og:description"
@@ -22,6 +26,8 @@ export default {
       />
       <meta property="og:image:alt" content="FMHY Guides Index Social Card" />
       <meta property="og:url" content="https://guides.fmhy.lol" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="FMHY Guides Index" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:image"
@@ -31,15 +37,21 @@ export default {
         name="twitter:description"
         content="Your Guide to Troubleshooting Problems in FMHY."
       />
+      <meta name="twitter:title" content="FMHY Guides Index" />
+      <meta
+        name="twitter:description"
+        content="Your Guide to Troubleshooting Problems in FMHY."
+      />
+      <meta name="twitter:creator" content="@yourTwitterHandle" />
     </>
   ),
-  // ... other theme options
   footer: {
     content: (
       <span>
         Attribution-ShareAlike (CC BY-SA) {new Date().getFullYear()} ©{" "}
         <a href="https://fmhy.lol" target="_blank" rel="noopener noreferrer">
-          Zenith Rifle and other FMHY Members
+          Zenith Rifle, InternetNinja and Simon Riley. Also, thanks to other
+          people for contributing!
         </a>
         !
       </span>
