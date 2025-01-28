@@ -1,4 +1,4 @@
-![Android Banner](https://small.fileditchstuff.me/s19/dLopbaHuEmJPIliXiXFA.png)
+![Android Banner](https://files.catbox.moe/q7g4im.png)
 
 
 
