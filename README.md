@@ -1,5 +1,5 @@
 FMHY Guides Index
 
-![FMHY](https://small.fileditchstuff.me/s19/BBkKaVhOUSqSgwozCjPA.png)
+![FMHY](https://files.catbox.moe/77hlyf.png)
 
 https://guides.fmhy.lol
